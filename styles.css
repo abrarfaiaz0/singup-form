@@ -1,0 +1,122 @@
+*{
+    image-rendering: -webkit-optimize-contrast;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    align-items: stretch;
+}
+div{
+    display:block;
+}
+.signup{
+    flex-direction: column;
+    align-items: center;
+}
+.transparent{
+    background-color: rgba(33, 33, 33, 0.556);
+}
+.ac-image{
+    background-image:url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+}
+.logo {
+    height: auto;
+    position: relative;
+    top: 20vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+.logo>div>img{
+    height: 50px;
+    width: 50px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.signup1{
+    box-sizing: border-box;
+    padding: 40px;
+    font-size: 20px;
+}
+.signup2{
+    padding-left: 40px;
+}
+.signup1{
+    padding-top: 90px;
+}
+.signup1>p{
+    margin: 40px;
+}
+.signup{
+    background-color: rgb(221, 255, 220);
+}
+.signup2{
+    background-color: white;
+}
+.input {
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    opacity: 90%;
+}
+.signup2{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 1000px;
+    gap:15px;
+    padding-bottom: 30px;
+    box-shadow: 2px 2px #888888;
+}
+.signup2>label{
+    color:rgba(33, 33, 33, 0.556);
+}
+p{
+    width: 100%;
+    font-size: larger;
+}
+.btn,.signup3{
+    padding-left: 40px;
+}
+.btn{
+    padding-top: 30px;
+}
+input {
+    width: 100%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: .5px solid rgb(123, 123, 123);
+    border-radius: 3px;
+}
+input:focus {
+    background-color: #e6efff;
+    box-shadow: 2px 2px #888888;
+}
+.button {
+    background-color: #4CAF50;
+   /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+a:link{
+    font-size: 20px;
+    text-decoration: none;
+    color:#4CAF50;
+}
